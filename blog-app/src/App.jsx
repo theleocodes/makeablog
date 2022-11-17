@@ -9,6 +9,7 @@ import Home from './pages/Home';
 const App = () => {
   return (
     <div className='container'>
+      
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/blog/:id' component={Blog} />
